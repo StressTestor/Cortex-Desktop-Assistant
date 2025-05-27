@@ -1,0 +1,10 @@
+.env
+google_creds.json
+__pycache__/
+dist/
+build/
+*.log
+*.mp3
+gda-venv/
+*.exe
+*.bat

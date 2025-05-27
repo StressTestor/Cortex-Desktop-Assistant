@@ -1,0 +1,10 @@
+voice:
+  engine: google
+  id: en-US-Neural2-F
+  rate: 1.0
+  intro_line: "Cortex online and ready."
+  enabled: true
+
+wake_word: "hey cortex"
+shutdown_word: "shutdown"
+mode: "cli"
