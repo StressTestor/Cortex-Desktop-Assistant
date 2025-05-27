@@ -1,0 +1,7 @@
+PyYAML
+edge-tts
+google-cloud-texttospeech
+requests
+python-dotenv
+SpeechRecognition
+playsound
