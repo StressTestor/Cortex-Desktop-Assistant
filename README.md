@@ -3,6 +3,9 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Build Status](https://github.com/StressTestor/Cortex-Desktop-Assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/StressTestor/Cortex-Desktop-Assistant/actions)
+[![codecov](https://codecov.io/gh/StressTestor/Cortex-Desktop-Assistant/branch/main/graph/badge.svg)](https://codecov.io/gh/StressTestor/Cortex-Desktop-Assistant)
+[![GitHub release](https://img.shields.io/github/release/StressTestor/Cortex-Desktop-Assistant.svg)](https://github.com/StressTestor/Cortex-Desktop-Assistant/releases)
 
 A powerful, modular, and extensible voice assistant for Windows, macOS, and Linux. Features real-time voice recognition, multiple TTS engine support, web search, and LLM integration (via Groq API).
 
