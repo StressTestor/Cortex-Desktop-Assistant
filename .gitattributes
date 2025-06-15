@@ -1,0 +1,122 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force Windows-style line endings for batch files
+*.bat text eol=crlf
+
+# Force Unix-style line endings for shell scripts
+*.sh text eol=lf
+
+# Binary files should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# Python files should use LF line endings
+*.py text eol=lf
+*.pyi text eol=lf
+*.pyx text eol=lf
+*.pxd text eol=lf
+*.pxi text eol=lf
+*.pyd binary
+*.so binary
+*.dll binary
+*.pyd binary
+
+# Text files should use LF line endings
+*.txt text eol=lf
+*.md text eol=lf
+*.rst text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.xml text eol=lf
+*.svg text eol=lf
+
+# Git files
+.gitattributes export-ignore
+.gitignore export-ignore
+
+# Documentation
+README.md export-ignore
+CONTRIBUTING.md export-ignore
+CHANGELOG.md export-ignore
+
+# Tests and CI
+tests/ export-ignore
+.tox/ export-ignore
+.coverage export-ignore
+htmlcov/ export-ignore
+.pytest_cache/ export-ignore
+.mypy_cache/ export-ignore
+
+# Development files
+.vscode/ export-ignore
+.idea/ export-ignore
+*.sublime-project export-ignore
+*.sublime-workspace export-ignore
+*.code-workspace export-ignore
+
+# Virtual environment
+venv/ export-ignore
+env/ export-ignore
+ENV/ export-ignore
+gda-venv/ export-ignore
+
+# Build and distribution
+build/ export-ignore
+dist/ export-ignore
+*.egg-info/ export-ignore
+*.egg export-ignore
+
+# Local development
+.env export-ignore
+.env.local export-ignore
+.env.*.local export-ignore
+
+# Credentials
+google_creds.json export-ignore
+*.pem export-ignore
+*.key export-ignore
+*.p12 export-ignore
+*.crt export-ignore
+
+# Logs
+*.log export-ignore
+logs/ export-ignore
+
+# Audio files
+*.mp3 export-ignore
+*.wav export-ignore
+*.ogg export-ignore
+
+# OS generated files
+.DS_Store export-ignore
+.DS_Store? export-ignore
+._* export-ignore
+.Spotlight-V100 export-ignore
+.Trashes export-ignore
+ehthumbs.db export-ignore
+Thumbs.db export-ignore
+
+# Project specific
+output_*.mp3 export-ignore
+cortex_tts_* export-ignore
+cortex_edge_tts_* export-ignore
+cortex_google_tts_* export-ignore

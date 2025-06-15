@@ -1,9 +1,14 @@
 voice:
-  engine: google
+  engine: google  # Options: google, edge, or chatterbox
   id: en-US-Neural2-F
   rate: 1.0
   intro_line: "Cortex online and ready."
   enabled: true
+
+# Chatterbox TTS specific settings (only used when engine is set to 'chatterbox')
+chatterbox_tts:
+  exaggeration: 0.5  # Controls emotion/expressiveness (0.0 to 1.0)
+  cfg_weight: 0.5   # Controls stability vs. expressiveness (0.0 to 1.0)
 
 wake_word: "hey cortex"
 shutdown_word: "shutdown"
